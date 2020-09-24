@@ -7,5 +7,5 @@ ssh vagrant@192.168.10.10 "cd /home/vagrant/Code/content_service && ./vendor/php
 echo "static-debugging finished!"
 
 echo "unit-test"
-ssh vagrant@192.168.10.10 "cd /home/vagrant/Code/content_service && ./vendor/bin/phpunit tests/"
+ssh vagrant@192.168.10.10 "cd /home/vagrant/Code/content_service && ./vendor/bin/phpunit test/"
 echo "unit-test finished!"
